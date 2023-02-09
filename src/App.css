@@ -2,7 +2,10 @@
   text-align: center;
 }
 body{
-  background-color: rgb(3, 3, 70);
+  background: lightblue;
+/* background-image: url(Images/blue-high-tech-futuristic-cyberspace-technology-background-free-vector.jpg);   */
+background-size: cover;
+color: black;
 }
 .App-logo {
   height: 40vmin;
@@ -25,7 +28,14 @@ body{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#table{
+margin-left: 80%;
+margin-top:-70px;
+}
+#readdata{
+  margin-left: 80%;
+  margin-top:-70px;
+  }
 .App-link {
   color: #61dafb;
 }

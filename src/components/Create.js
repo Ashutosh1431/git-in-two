@@ -25,13 +25,8 @@ console.log("hello")
    <>
    <div className='row' id='forms'>
 <div className='col-md-4'>
-<div className='mb-2 mt-2'>
-       
-       <Link to='/'>
-       <button className='btn btn-info'>Read data</button> 
-       </Link>
-        </div>
-    <div className='bg-primary text-white mt-3'>
+
+    <div className=' text-black mt-3'>
         <h1>
             CREATE DATA
         </h1>
@@ -61,6 +56,12 @@ console.log("hello")
   <button type="button" className="btn btn-danger"onClick={handleSubmit}>Submit</button>
 
   </div>
+  <div>
+       
+       <Link to='/'>
+       <button className='btn btn-info' id='table'> TABLE</button> 
+       </Link>
+        </div>
 
 </div>
     </form>

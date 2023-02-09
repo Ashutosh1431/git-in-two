@@ -35,13 +35,11 @@ navigate('/')
 <div className='col-md-4'>
 <div className='mb-2 mt-2'>
        
-       <Link to='/'>
-       <button className='btn btn-info' style={{marginTop:"50px"}} >Read data</button> 
-       </Link>
+
         </div>
-    <div className='bg-primary text-white mt-3'>
+    <div className=' text-black mt-3'>
         <h1>
-           Read data
+           EDIT DATA
         </h1>
     </div>
     <form>
@@ -67,7 +65,9 @@ navigate('/')
   <button type="button" className="btn btn-danger" onClick={handleUpdate}>UPDATE</button>
 
   </div>
-
+  <Link to='/'>
+       <button className='btn btn-info' id='readdata' >TABLE</button> 
+       </Link>
 </div>
     </form>
 

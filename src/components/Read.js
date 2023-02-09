@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 
 function Read() {
    const [apiData, setApiData] = useState([])
+   console.log(apiData)
     function getData (){
         axios.get('https://63d7de725dbd7232442ee6db.mockapi.io/curd')
         .then((response) =>{
-        setApiData(response.data);
+        setApiData(response?.data);
         })
     
     }
